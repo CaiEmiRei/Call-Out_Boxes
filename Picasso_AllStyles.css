@@ -1,0 +1,403 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*!!!!!!!!  Existing Picasso CSS that is being updated   !!!!!!!*/
+
+.picasso-wrapper h1,.picasso-wrapper h2,.picasso-wrapper h3,.picasso-wrapper h4,.picasso-wrapper h5,.picasso-wrapper h6{margin:13px 0;font-family:inherit;font-weight:700;line-height:1;color:#1b3f95;text-rendering:optimizelegibility;text-shadow: 2px 2px 4px #E6E6E6;}
+
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:400;line-height:1;color:#999}
+
+h1,h2,h3{line-height:52px}
+
+.picasso-wrapper h1 {
+    font-size:2.5em;
+    line-height: 1.05em;
+    margin:13px 0 0px;
+    font-weight: 500;
+}
+.picasso-wrapper h2 {
+    font-size:2.25em;
+    line-height: 1.25em;
+    margin:13px 0 0px;
+    font-weight: 500;
+}
+.picasso-wrapper h3 {
+    font-size:2em;
+    line-height: 1.25em;
+    margin:13px 0 0px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.picasso-wrapper h4 {
+    font-size:1.75em;
+    line-height: 1.22222222em;
+    margin:13px 0 2px;
+    font-weight: 400;
+}
+.picasso-wrapper h5 {
+    font-size:1.5em;
+    line-height: 1.22222222em;
+    margin:13px 0 2px;
+    font-style: italic;
+    font-weight: 500;
+}
+.picasso-wrapper h6 {
+    font-size:1.125em;
+    line-height: 1.22222222em;
+    margin:13px 0 2px;
+    font-weight: 700;
+}
+.picasso-wrapper p {
+    margin:0 0 10px;
+}
+
+li {
+    line-height:1.75em;
+    margin: 0 0 6px 0;
+}
+
+.picasso-wrapper ul { 
+    list-style:disc;
+    padding:0;
+    margin:0 0 6px 25px;
+}
+
+.picasso-wrapper ol{
+    list-style:decimal;
+    padding:0;
+    margin:0 0 6px 25px;
+}
+
+
+table  {
+    max-width:100%;
+    background-color:transparent;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.table { 
+    max-width:100%;
+    margin-bottom:26px;
+}
+
+.table th,.table td {
+    padding:0px;
+    text-align:left;
+    vertical-align:top;
+    border-top:1px solid #ddd;
+}
+
+.table thead th {
+    vertical-align:bottom;
+}
+
+.table-condensed th,.table-condensed td {
+    padding:4px 5px;
+}
+
+.table-bordered {
+    border:1px solid #ddd;
+    border-collapse:collapse;
+    border-left:0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px
+}
+
+.table-bordered th,.table-bordered td {
+    border-left:1px solid #ddd;
+}
+
+
+/* New random things */
+
+.picasso-wrapper table p {
+    margin: 0;
+}
+
+
+/***** NEW CSS - KEY POINTS & EXAMPLES *****/
+
+.blockquote-bg{
+    width: 85%;
+    max-width: 860px;
+    min-width: 100px;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 0 3px 4px rgba(0,0,0,.075);
+    border-radius: 7px;
+    margin: 20px auto;
+}
+
+.blockquote-box {
+    width: 90%;
+    margin: 0 2% 10px 8%;
+    min-height:50px;
+    font-family: Open Sans,helvetica neue,Helvetica,Arial,sans-serif;
+}
+
+.blockquote-bg.blockquote-keypoint {
+    background-color: #57b852;   
+    background-image: url(KeyPointIcon.png);
+    background-position: .5% 5px;
+    background-repeat: no-repeat;
+    background-size: 7%;
+}
+
+.blockquote-box.blockquote-keypoint {
+    background-color: #D3ECD2;
+}
+
+.blockquote-box p {
+    margin: 0px 10px 5px;
+    font-size: .95em;
+    color: #000000;
+}
+
+.blockquote-box ol {
+   margin: 0px 20px 6px;
+    font-size: .95em;
+    color: #000000;
+}
+.blockquote-box ul {
+   margin: 0px 20px 6px;
+    font-size: .95em;
+    color: #000000;
+}
+.blockquote-box li {
+   margin: 0px 10px 6px;
+    font-size: 1em;
+    color: #000000;
+}
+
+p.keypoint-callout {
+    font-weight: 600;
+    margin: 5px 10px 0px;
+    font-size: 1.35em;
+    color: #000000;
+}
+
+.blockquote-bg.blockquote-example {
+    background-color: #0180B7;
+    background-image: url(ExampleIcon.png);
+    background-position: .5% 5px;
+    background-repeat: no-repeat;
+    background-size: 7%;
+}
+
+.blockquote-box.blockquote-example {
+    background-color: #BDEAFE;
+}
+
+p.example-callout {
+    font-weight: 600;
+    margin: 5px 10px 0px;
+    font-size: 1.35em;
+    color: #000000;
+}
+
+.blockquote-bg.blockquote-KeyTake {
+    width: 95%;
+    background-color: #E67318;
+    background-image: url(/coursegraphics/Picasso_Global/WhatToKnowIcon.png);
+    background-position: .5% 5px;
+    background-repeat: no-repeat;
+    background-size: 7%;
+}
+
+.blockquote-box.blockquote-KeyTake {
+    background-color: #FAE2CF;
+}
+
+p.KeyTake-callout {
+    font-weight: 600;
+    margin: 5px 10px 0px;
+    font-size: 1.35em;
+    color: #000000;
+}
+
+
+.note:before { 
+    position: absolute;
+    width: 50px;
+	height: 50px;
+	margin: -15px 0 0 -35px;
+	border: 5px solid #E6E6E6;
+	border-radius: 30px;
+	font-weight: 700;
+	text-align: center;
+	background: #fff;
+}
+
+.note {
+	padding: .1px 1.5em;
+	background: #E6E6E6;
+	margin: 2em auto;
+    width: 85%;
+    border-radius: 7px;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.2);
+}
+
+.i.i_KeyPoint:before {
+	content: "\f084";
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 500;
+    line-height: 1.4;
+    font-size: 2.25em;
+	color: #57b852;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+.i.i_Example:before {
+    content:"\f0eb";
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 500;
+    line-height: 1.3em;
+    font-size: 2.5em;
+	color: #0180B7;
+}
+
+.note.i_KeyTake {
+    width: 90%;
+}
+.i.i_KeyTake:before {
+    content: "\f00c";
+    font-family:"Font Awesome 5 Pro";
+	font-weight: 600;
+    line-height: 1.4em;
+    font-size: 2.5em;
+	color: #E67318;
+}
+
+.i { 
+    border-radius: 7px;
+}
+
+.i p {
+    margin: 0px 5px 10px 20px;
+    font-size: .95em;
+    font-family: Open Sans,helvetica neue,Helvetica,Arial,sans-serif;
+    color: #000000;
+}
+
+.i ol {
+    margin: 0px 5px 6px 20px;
+    font-size: .95em;
+    font-family: Open Sans,helvetica neue,Helvetica,Arial,sans-serif;
+    color: #000000;
+}
+.i ul {
+    margin: 0px 5px 6px 20px;
+    font-size: .95em;
+    font-family: Open Sans,helvetica neue,Helvetica,Arial,sans-serif;
+    color: #000000;
+}
+.i li {
+    margin: 0px 5px 6px 20px;
+    font-size: 1em;
+    font-family: Open Sans,helvetica neue,Helvetica,Arial,sans-serif;
+    color: #000000;
+}
+
+p.KeyPoint-callout-head {
+    font-weight: 700;
+    margin: 3px 5px 0px 20px;
+    font-size: 1.6em;
+    color: #57b852;
+}
+
+p.Example-callout-head {
+    font-weight: 700;
+    margin: 3px 5px 0px 20px;
+    font-size: 1.6em;
+    color: #0180B7;
+}
+
+p.KeyTake-callout-head {
+    font-weight: 700;
+    margin: 3px 5px 0px 20px;
+    font-size: 1.6em;
+    color: #E67318;
+}
+
+blockquote.block-key {
+    padding:10px;
+    margin:0 auto 26px;
+    border-left:10px solid #57b852;
+    background-color: #E6E6E6;
+    width: 85%;
+    border-radius: 7px;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 0 3px 4px rgba(0,0,0,.075);
+}
+
+blockquote.block-example {
+    padding:10px;
+    margin:0 auto 26px;
+    border-left:10px solid #0180B7;
+    background-color: #E6E6E6;
+    width: 85%;
+    border-radius: 7px;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 0 3px 4px rgba(0,0,0,.075);
+}
+
+blockquote p.block-key.block-example {
+    margin-bottom:0;
+    font-size:14px;
+    font-weight:300;
+    line-height:1em;
+}
+
+blockquote.block-key-2 {
+    padding:10px;
+    margin:0 auto 26px;
+    border-left:none;
+    background-color: #D3ECD2;
+    background-image:-moz-linear-gradient(top left,#D3ECD2,#57b852);
+    background-image:-webkit-gradient(linear,0 0,0 100%,from(#D3ECD2),to(#57b852));
+    background-image:-webkit-linear-gradient(top left,#D3ECD2,#57b852);
+    background-image:-o-linear-gradient(top left,#D3ECD2,#57b852);
+    background-image:linear-gradient(to right bottom,#D3ECD2,#57b852);
+    background-repeat:repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#D3ECD2',endColorstr='#57b852',GradientType=0);
+    width: 70%;
+    border-radius: 7px;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 0 3px 4px rgba(0,0,0,.075);
+}
+
+blockquote.block-example-2 {
+    padding:10px;
+    margin:0 auto 26px;
+    border-left:none;
+    background-color:#BDEAFE;
+    width: 70%;
+    background-image:-moz-linear-gradient(top left,#BDEAFE,#0180B7);
+    background-image:-webkit-gradient(linear,0 0,0 100%,from(#BDEAFE),to(#0180B7));
+    background-image:-webkit-linear-gradient(top left,#BDEAFE,#0180B7);
+    background-image:-o-linear-gradient(top left,#BDEAFE,#0180B7);
+    background-image:linear-gradient(to right bottom,#BDEAFE,#0180B7);
+    background-repeat:repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#BDEAFE',endColorstr='#0180B7',GradientType=0);
+    border-radius: 7px;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 0 3px 4px rgba(0,0,0,.075);
+}
+
+blockquote p.block-key-2.block-example-2 {
+    margin: 0 0 3px;
+    font-size:14px;
+    font-weight:300;
+    line-height:1em;
+}
+
+
